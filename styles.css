@@ -257,8 +257,62 @@ body{
 
 #imageP{
     position: absolute;
-    left: 2vh;
+    left: 1.2vh;
     top: 5.6vh;
     width: 12vh;
     z-index: 21;
+}
+
+.resultados{
+    position: absolute;
+    left: 13.8vh;
+    top: 5.6vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#tipo{
+    position: absolute;
+    left: 6vh;
+    top: 0vh;
+}
+
+#ability{
+    position: absolute;
+    left: 10.3vh;
+    top: 1.8vh;
+    width: 12vh;
+}
+
+#hp{
+    position: absolute;
+    left: 3.4vh;
+    top: 3.7vh;
+}
+
+#attack{
+    position: absolute;
+    left: 7.3vh;
+    top: 5.6vh;
+}
+
+#deffense{
+    position: absolute;
+    left: 8.1vh;
+    top: 7.5vh;
+}
+
+#special{
+    position: absolute;
+    left: 9.2vh;
+    top: 9.3vh;
+}
+
+#nombreP{
+    position: absolute;
+    left: 6vh;
+    top: 22vh;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 22;
+    font-weight: bold;
 }
