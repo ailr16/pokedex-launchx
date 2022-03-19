@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: tipografiaPokemon;
+    src: url(./tipografia.ttf);
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -17,11 +22,21 @@ body{
     background-color: var(--main-bg-color);
 }
 
+.title{
+    position: absolute;
+    color: rgb(222, 7, 48);
+    bottom: 90vh;
+    left: 30vw;
+    text-align: center;
+    font-family: tipografiaPokemon;
+    font-size: 4.2vh;
+}
+
 .cuerpo{
     position: relative;
     bottom: 1vh;
     background-color: rgb(222, 7, 48);
-    left: 10vh;
+    left: 2vw;
     z-index: -1;
     width: 60vh;
     height: 80vh;
@@ -84,4 +99,151 @@ body{
     transform: rotate(90deg);
     background-color: rgb(53, 53, 53);
     z-index: -1;
+}
+
+.botonCentral{
+    width: 3vh;
+    height: 12vh;
+    position: absolute;
+    bottom: 28vh;
+    left: 28.6vh;
+    transform: rotate(90deg);
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+}
+
+.botonCentralL{
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    bottom: -0.8vh;
+    left: 0vh;
+    transform: rotate(90deg);
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+    border-radius: 100%;
+}
+
+.botonCentralR{
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    bottom: 11vh;
+    left: 0vh;
+    transform: rotate(90deg);
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+    border-radius: 100%;
+}
+
+.botonBusqueda{
+    width: 3vh;
+    height: 12vh;
+    position: absolute;
+    bottom: 20vh;
+    left: 28.6vh;
+    transform: rotate(90deg);
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+}
+
+.botonBusquedaL{
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    bottom: -0.8vh;
+    left: 0vh;
+    transform: rotate(90deg);
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+    border-radius: 100%;
+}
+
+.botonBusquedaR{
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    bottom: 11vh;
+    left: 0vh;
+    transform: rotate(90deg);
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+    border-radius: 100%;
+}
+
+.boton1{
+    position: absolute;
+    bottom: 26vh;
+    left: 42vh;
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100% ;
+}
+
+.boton2{
+    position: absolute;
+    bottom: 26vh;
+    left: 50vh;
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100% ;
+}
+
+.bordePantalla{
+    position: absolute;
+    width: 40vh;
+    height: 30vh;
+    top: 4vh;
+    left: 10vh;
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+    border-radius: 0.6vh;
+}
+
+.cajaTexto{
+    position: absolute;
+    bottom: 36.5vh;
+    left: 45.4vh;
+}
+
+.botonBuscar{
+    position: absolute;
+    bottom: 39vh;
+    left: 62.8vh;
+}
+
+.pantallaResultado{
+    position: absolute;
+    width: 34.5vh;
+    height: 25.4vh;
+    top: 15.4vh;
+    left: 34.6vw;
+    background-color: rgb(241, 243, 215);
+    border-radius: 0.4vh;
+}
+
+#nombre{
+    background-color: rgb(53, 53, 53);
+    color: rgb(170, 170, 170);
+    width: 11.2vh;
+    border-width: 0px;
+    text-align: center;
+}
+
+#busqueda{
+    background-color: rgb(53, 53, 53);
+    color: rgb(170, 170, 170);
+    font-size: 1.1vh;
+    border-width: 0.1vh;
+}
+
+#imageP{
+    position: absolute;
+    left: 2vh;
+    top: 5.6vh;
+    width: 12vh;
 }

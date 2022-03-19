@@ -6,7 +6,7 @@ const fetchPokemon = () => {
     fetch(url).then((res) => {
         if (res.status != "200") {
             console.log(res);
-            pokeImage("./pokeball.png")
+            pokeImage("./error.webp")
         }
         else {
             return res.json();
