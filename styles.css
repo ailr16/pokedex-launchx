@@ -1,0 +1,87 @@
+:root{
+    --main-bg-color:rgb(182, 216, 226);
+    --face: rgb(182, 216, 226);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+}
+
+.cuerpo{
+    position: relative;
+    bottom: 1vh;
+    background-color: rgb(222, 7, 48);
+    left: 10vh;
+    z-index: -1;
+    width: 60vh;
+    height: 80vh;
+    border-radius: 1% ;
+    border: 4px solid rgb(27, 27, 27);
+}
+
+.cuerpo2{
+    position: absolute;
+    bottom: -0.4vh;
+    background-color: rgb(190, 7, 41);
+    left: -0.4vh;
+    z-index: -1;
+    width: 60vh;
+    height: 16vh;
+    border-radius: 1% ;
+    border: 4px solid rgb(27, 27, 27);
+}
+
+.cuerpo3{
+    position: absolute;
+    top: -0.4vh;
+    background-color: rgb(190, 7, 41);
+    left: -0.4vh;
+    z-index: -1;
+    width: 60vh;
+    height: 40vh;
+    border-radius: 1% ;
+    border: 4px solid rgb(27, 27, 27);
+}
+
+.circulo{
+    position: absolute;
+    bottom: 1.6vh;
+    background-color: rgb(58, 171, 249);
+    left: 45vh;
+    z-index: -1;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 100% ;
+    border: 4px solid rgb(27, 27, 27);
+}
+
+.cruceta{
+    width: 3vh;
+    height: 12vh;
+    position: absolute;
+    bottom: 22vh;
+    left: 10vh;
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+}
+
+.crucetaH{
+    width: 3vh;
+    height: 12vh;
+    position: absolute;
+    bottom: 0vh;
+    left: 0vh;
+    transform: rotate(90deg);
+    background-color: rgb(53, 53, 53);
+    z-index: -1;
+}
