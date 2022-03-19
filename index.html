@@ -11,16 +11,6 @@
 
     <body>
         <div class="title">Pokedex LaunchX</div>
-        <div class="cajaTexto">
-            <input type="text" placeholder="Nombre Pokemon" id="nombre" name="nombre"><br>
-        </div>
-        <div class="botonBuscar">
-            <button onclick="fetchPokemon()" id="busqueda">Buscar</button>
-        </div>
-        <div class="pantallaResultado">
-            <img src="pokeball.png" alt="pokemon" id="imageP"><br>
-        </div>
-        
 
         <div class="cuerpo">
             <div class="cuerpo3">
@@ -36,13 +26,25 @@
                 <div class="botonCentralR"></div>
             </div>
             <div class="botonBusqueda">
+                <div class="cajaTexto">
+                    <input type="text" placeholder="Nombre Pokemon" id="nombre" name="nombre"><br>
+                </div>
                 <div class="botonBusquedaL"></div>
                 <div class="botonBusquedaR"></div>
             </div>
-            <div class="boton1"></div>
+            <div class="boton1">
+                <div class="botonBuscar">
+                    <button onclick="fetchPokemon()" id="busqueda">Buscar</button>
+                </div>
+            </div>
             <div class="boton2"></div>
-            <div class="bordePantalla"></div>
+            <div class="bordePantalla">
+                <div class="pantallaResultado">
+                    <img src="pokeball.png" alt="pokemon" id="imageP"><br>
+                </div>
+            </div>
         </div>
+
     </body>
 
     <footer>
